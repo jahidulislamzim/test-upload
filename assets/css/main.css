@@ -1,5 +1,5 @@
-@import  '../css/_commons.css';
-@import  '../css/_typo.css';
+@import  url('../css/_commons.css');
+@import  url('../css/_typo.css');
 @import  '../css/_spaces.css';
 @import  '../css/_effects.css';
 @import  '../css/_header.css';
