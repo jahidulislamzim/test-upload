@@ -1,0 +1,147 @@
+.lorem-ipsum-sec-cntlr {
+    display: flex;
+    flex-direction: column;
+    max-width: 730px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.lorem-ipsum-sec{
+    padding-top: 190px;
+    padding-bottom: 120px;
+}
+
+.lorem-ipsum-sec-des p {
+    font-size: 19px;
+    line-height: 28px;
+}
+.entry-hdr-title {
+    font-weight: 300;
+    color: #0054bf;
+    text-align: center;
+    margin-bottom: 55px;
+    font-weight: 300;
+}
+.featured-sec{
+    padding-bottom: 139px;
+}
+.featured-top{
+    display: flex;
+    align-items: center;
+    padding-bottom: 43px;
+}
+.featured-des-title{
+    margin-bottom: 0;
+    font-size: 29px;
+    font-weight: 300;
+    color: #0054bf;
+    padding-left: 32px;
+}
+.featured-des-title span{
+    font-weight: 700;
+}
+.featured-itm {
+    display: flex;
+}
+.featured-sec-cntlr .featured-itm:nth-child(2) .featured-img {
+    order: 2;
+}
+.featured-img {
+    width: 50%;
+}
+.featured-des {
+    width: 50%;
+    margin-left: auto;
+    padding-left: 95px;
+    padding-top: 75px;
+    padding-right: 55px;
+}
+.featured-des p{
+    font-size: 19px;
+}
+.featured-img{
+    overflow: hidden;
+}
+.featured-img-hvr{
+    transition: all .5s;
+    -ms-transition: all .5s;
+    -webkit-transition: all .5s;
+}
+.featured-img-hvr:hover{
+    transform: scale(1.1);
+
+}
+@media(max-width: 1199px){
+    .featured-des{
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+}
+@media(max-width: 991px){
+    .featured-des{
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+ .featured-top{
+    padding-bottom: 8px;
+ }
+ .featured-des p {
+    line-height: 25px;
+    font-size: 18px;
+}
+.featured-top span img{
+    max-width: 50px;
+}
+.featured-des-title{
+    font-size: 27px;
+}
+}
+@media(max-width: 767px){
+    .lorem-ipsum-sec{
+        padding: 100px 0;
+    }
+    .featured-itm{
+        max-width: 400px;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .featured-img{
+        width: 100%;
+    }
+    .featured-des{
+        width: 100%;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+    .featured-sec-cntlr .featured-itm:nth-child(2) .featured-img{
+        order: initial;
+    }
+    .featured-des-title{
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    .featured-top span img {
+    max-width: 40px;
+}
+
+.featured-des-title {
+    font-size: 23px;
+}
+
+}
+@media(max-width: 575px){
+    .lorem-ipsum-sec {padding-top: 50px;padding-bottom: 40px;}
+
+
+}
+@media(max-width: 479px){
+    .featured-des p {
+    font-size: 17px;
+    line-height: 24px;
+}
+.featured-sec{
+    padding-bottom: 0;
+}
+}

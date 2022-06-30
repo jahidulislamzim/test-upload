@@ -1,0 +1,106 @@
+.Sitemap{
+    padding: 130px 0;
+    /* -webkit-box-shadow: inset 0px 20px 92px -21px rgb(232 233 233); */
+    -moz-box-shadow: inset 0px 20px 92px -21px rgba(232,233,233,1);
+    /* box-shadow: inset 0px 20px 92px -21px rgb(232 233 233); */
+    box-sizing: border-box;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+ol li {
+    padding-bottom: 10px;
+}
+
+ol li a {
+    font-size: 22px;
+    color: #015699;
+}
+nav.main-nav h3{
+    font-size: 40px;
+    color: #015699;
+    padding-bottom: 20px;
+}
+.main-nav ol{
+    padding: 0;
+    margin: 0;
+}
+
+.Sitemap-sec-innr {
+    padding-left: 21px;
+}
+@media(max-width: 991px){
+    nav.main-nav h3{
+        font-size: 36px;
+    }
+}
+@media(max-width: 767px){
+    nav.main-nav h3{
+        font-size: 32px;
+    }
+}
+@media(max-width: 575px){
+    nav.main-nav h3 {
+    font-size: 28px;
+}
+
+}
+
+section .hellow {
+    max-width: 500px;
+    margin: 0 auto;
+    background: darkslategray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section .hellow ul >li >a {
+    color: #ffff;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+section .hellow >ul >li {
+    padding: 11px 22px;
+    position: relative;
+}
+
+/*section .hellow ul >li > a:hover {
+    color: red;
+}*/
+/*section .hellow ul >li.menu-itm-has-chil a ul.sub-menu-try > li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}*/
+section .hellow >ul >li ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.sub-menu-try {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 11111;
+    position: absolute;
+    left: 50%;
+    background: red;
+    width: 100px;
+    transform: translateX(-50%);
+}
+ul.sub-menu-try li a{
+    color: green;
+}
+section .hellow >ul >li.menu-itm-has-chil.momin ul.sub-menu-try {
+    opacity: 1!important;
+    display: block;
+    visibility: visible!important;
+    z-index: 999;
+}

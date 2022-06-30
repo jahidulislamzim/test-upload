@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PFDinTextPro-Bold';
+    src: url('PFDinTextPro-Bold/LatoRegular.eot');
+    src: url('PFDinTextPro-Bold/LatoRegular.eot') format('embedded-opentype'),
+         url('PFDinTextPro-Bold/LatoRegular.woff2') format('woff2'),
+         url('PFDinTextPro-Bold/LatoRegular.woff') format('woff'),
+         url('PFDinTextPro-Bold/LatoRegular.ttf') format('truetype'),
+         url('PFDinTextPro-Bold/LatoRegular.svg#LatoRegular') format('svg');
+    font-weight: normal;
+}

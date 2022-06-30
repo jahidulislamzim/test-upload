@@ -1,0 +1,339 @@
+.get-in-touch-sec{
+	padding-top: 180px;
+	padding-bottom: 240px;
+}
+.banner-page-sec{
+	position: relative;
+	overflow: hidden;
+}
+.banner-page-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.banner-page-sec-content{
+	position: relative;
+	height: 560px;
+}
+.banner-page-sec-content-title{
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	padding-top: 231px;
+}
+.get-in-touch-sec-cntlr {
+	max-width: 948px;
+	width: 100%;
+	margin: 0 auto;
+}
+.frm-title-title{
+	color: #0054bf;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.frm-sec-cntlr .input-field-row {
+    display: flex;
+    margin: 0 -30px;
+}
+.frm-sec-cntlr .input-field-col{
+	width: 100%;
+	padding: 0px 30px;
+	position: relative;
+	margin-bottom: 100px;
+}
+.frm-sec-cntlr .input-field-row input[type="text"],
+.frm-sec-cntlr .input-field-row input[type="email"]{
+	border-bottom: 1px solid #c9c9c9;
+	width: 100%;
+	padding: 20px 0px 12px 5px;
+	transition: all .5s;
+	-ms-transition: .5s;
+	-webkit-transition: .5s;
+}
+.frm-sec-cntlr .input-field-row input[type="text"]:focus,
+ .frm-sec-cntlr .input-field-row input[type="email"]:focus,
+ .frm-sec-cntlr .input-field-col textarea:focus{
+ 	 border-bottom: 1px solid #079e60;
+ }
+.frm-sec-cntlr .input-field-col textarea{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	width: 100%;
+	padding: 25px 0 12px 5px;
+	height: 60px;
+	transition: .5s;
+	-ms-transition: .5s;
+	-webkit-transition: .5s;
+}
+/*.input-field-col .placeholder{
+	top: 27px;
+}*/
+.frm-sec-cntlr label{
+	position: absolute;
+	top: 16px;
+	left: 38px;
+	transition: all .5s;
+	font-size: 14px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #919191;
+}
+input[data-empty="false"] + label,
+.frm-sec-cntlr .input-field-row input[type="text"]:focus + label,
+.frm-sec-cntlr .input-field-row input[type="email"]:focus + label,
+textarea[data-empty="false"] + label,
+.frm-sec-cntlr .input-field-col textarea:focus+ label{
+	top: -15px;
+	font-size: 14px;
+	color: #079e60;
+}
+.submit-btn{
+	color: #fff;
+	border-radius: 3px;
+	position: relative;
+	background-color: #0054bf;
+	margin: 0 auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	width: 220px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.submit-btn input[type="submit"]{
+	color: #fff;
+	position: relative;
+	background-color: transparent;
+	text-transform: uppercase;
+	z-index: 11;
+	font-weight: 700;
+	cursor: pointer;
+	width: 220px;
+	height: 56px;
+}
+.submit-btn.common-bttn-design:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transition: all ease .5s;
+	background-color: #2465b8!important;
+	opacity: 0;
+	width: 0;
+	color: #fff;
+	z-index: 11;
+	border-radius: 3px;
+}
+.submit-btn.common-bttn-design:hover:before{
+		opacity: 1;
+		z-index: 11;
+		width: 100%;
+}
+.invalid-text p {
+    position: absolute;
+    color: red;
+    font-family: 'PFDinTextProRegular';
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 10px;
+    opacity: 0;
+}
+.was-validated:invalid .invalid-text p{
+	opacity: 1;
+	text-align: center;
+}
+
+.was-validated input[type=email]:invalid {
+    border-bottom: 1px solid red;
+}
+.was-validated input[type="text"]:invalid{
+    border-bottom: 1px solid red;
+}
+.s-valud .invalid-text p{
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: -60px;
+}
+.map-contact-se-cntlr {
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 148px;
+}
+.map-sec-cntlr {
+    max-width: 74.72%;
+    width: 100%;
+}
+.contact-sec-cntlr{
+	right: 0;
+	top: 171px;
+	max-width: 25.33%;
+	width: 100%;
+	position: absolute;
+	padding: 0 49px;
+}
+.contact-sec-cntlr a:hover {
+    color: #0054bf;
+}
+.contact-title{
+	font-weight: 300;
+	color: #0054bf;
+	padding-bottom: 54px;
+}
+.contact-address-title{
+	color: #000;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.contact-address a{
+	color: #000;
+	font-size: 15px;
+	line-height: 2.1;
+}
+.contact-tel span{
+	color: #000;
+	font-weight: 700;
+	font-size: 15px;
+}
+.contact-tel span a{
+	font-weight: 400;
+	color: #000;
+}
+.contact-info-title{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 7px;
+}
+.contact-info a{
+	font-size: 15px;
+	color: #000;
+}
+.contact-Bus-dev-title{
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.contact-Bus-dev a{
+	font-size: 15px;
+	color: #000;
+}
+.contact-hr-title{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 7px;
+}
+.contact-hr a{
+	font-size: 15px;
+	color: #000;
+}
+.contact-tel {
+    padding-bottom: 48px;
+}
+
+.contact-info {
+    padding-bottom: 32px;
+}
+
+.contact-Bus-dev {
+    padding-bottom: 38px;
+}
+
+@media(max-width: 991px){
+	section.banner-page-sec .page-banner-bg {
+    min-height: 550px;
+}
+	.get-in-touch-sec{
+		padding-top: 80px;
+		padding-bottom: 0;
+	}
+	.map-sec-cntlr{
+		max-width: 100%;
+	}
+	.contact-sec-cntlr{
+		position: relative;
+		max-width: 370px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 0;
+	}
+
+
+}
+@media(max-width: 767px){
+.banner-page-sec .page-banner-bg{
+	min-height: 500px;
+}
+ form .bootstrap-select{
+        width: 100%; 
+}
+.frm-title-title{
+		padding-bottom: 60px;
+}
+}
+
+@media(max-width: 639px){
+.banner-page-sec .page-banner-bg{
+	min-height: 430px;
+}
+.map-contact-section{
+	padding-bottom: 80px;
+}
+.frm-title-title{
+		padding-bottom: 50px;
+}
+.frm-sec-cntlr .input-field-row{
+	margin: 0 0;
+
+}
+.frm-sec-cntlr .input-field-row{
+	flex-direction: column;
+}
+.frm-sec-cntlr .input-field-col{
+	padding: 0;
+}
+.frm-sec-cntlr label{
+	left: 0;
+}
+.frm-sec-cntlr .input-field-col{
+	margin-bottom: 30px;
+}
+.s-valud .invalid-text{
+	padding-top: 65px;
+}
+.s-valud .invalid-text p{
+   width: 100%;
+	padding: 0 20px;
+
+}
+.contact-title{
+	padding-bottom: 25px;
+}
+.map-contact-se-cntlr{
+	padding-top: 85px;
+}
+.contact-tel{
+	padding-bottom: 30px;
+}
+
+}
+@media(max-width: 575px){
+	.frm-title-title{
+		padding-bottom: 20px;
+	}
+}
+@media(max-width: 479px){
+.banner-page-sec .page-banner-bg{
+	min-height: 380px;
+}
+}

@@ -1,0 +1,92 @@
+.terms-sec {
+    /* padding-bottom: 220px; */
+    padding-top: 105px;
+    padding-bottom: 285px;
+    -webkit-box-shadow: inset 0px 20px 92px -21px rgb(232 233 233);
+    -moz-box-shadow: inset 0px 20px 92px -21px rgba(232,233,233,1);
+    box-shadow: inset 0px 20px 92px -21px rgb(232 233 233);
+    box-sizing: border-box;
+}
+.terms-sec-title{
+    color: #0054bf;
+    font-weight: 300;
+    padding-bottom: 94px;
+    text-align: center;
+}
+.terms-sec-cntlr .sidebar-title{
+    padding-bottom: 20px;
+}
+.terms-sec-cntlr #main-content{
+    display: flex;
+}
+.terms-sec-cntlr .sidebar-cntlr ul li a {
+    color: #000000;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.terms-sec-cntlr .sidebar-cntlr ul li {
+    padding-bottom: 20px;
+}
+.terms-sec-cntlr .sidebar-cntlr ul li.current a{
+    color: #069e5f;
+}
+.terms-sec-cntlr .content-itm-title {
+    margin-bottom: 33px;
+    margin-top: 27px;
+}
+.terms-sec-cntlr .content-itm{
+    padding-bottom: 50px;
+}
+.terms-sec-cntlr .content-itm p{
+    /* padding-bottom: 43px; */
+}
+.terms-sec-cntlr .design-cntent{
+    max-width: 79%;
+    padding-left: 71px;
+    width: 100%;
+}
+.terms-sec-cntlr .sidebar-cntlr {
+   -webkit-box-shadow: 15px 0px 48px -26px rgb(219 221 221);
+   -moz-box-shadow: 15px 0px 48px -26px rgba(219,221,221,1);
+   box-shadow: 15px 0px 48px -26px rgb(219 221 221);
+   min-height: 330px;
+   padding-top: 25px;
+}
+.terms-sec-cntlr .sidebar-design{
+     max-width: 20%;
+     width: 100%;
+}
+.terms-sec-cntlr .terms-sec {
+    padding-bottom: 220px;
+}
+.terms-sec-cntlr .terms-sec-cntlr {
+    padding: 0 105px;
+}
+@media(max-width: 767px){
+    .terms-sec-cntlr .sidebar-design{
+        display: none;
+    }
+    .terms-sec-cntlr .design-cntent{
+        max-width: 100%;
+        padding-left: 0;
+    }
+   .terms-sec{
+       padding-bottom: 50px;
+       padding-top: 74px;
+   }
+   .terms-sec-cntlr .content-itm-title{
+    margin-bottom: 20px;
+   }
+   .terms-sec-cntlr .content-itm{
+    padding-bottom: 5px;
+   }
+   .terms-sec-title{
+    margin-bottom: 0px;
+   }
+}
+@media(max-width: 575px){
+   .terms-sec-title{
+    padding-bottom: 50px;
+   }
+}
